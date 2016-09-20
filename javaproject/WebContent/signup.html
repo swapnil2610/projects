@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<head>
+<title>signup</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" href = "bootstrap/css/bootstrap.css" />
+
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+</head>
+<body>
+<div class="container-fluid" style="background-color:DarkSlateGray ">
+
+<img src = "bootstrap/img/ogo1.jpeg" style = "margin-top:10px; height : 100px; width:2000px" />
+<div class="navbar" style = "margin-top : 20px;">
+  				<div class="navbar-inner">
+    				<h1>
+    				<a href="index.html"><span class="glyphicon glyphicon-home" ></span>&nbsp;HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#"><span class="glyphicon glyphicon-align-justify"></span>&nbsp;About</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="#"><span class="glyphicon glyphicon-envelope" ></span>&nbsp;Contact</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      				<a href="#"><span class="glyphicon glyphicon-user" ></span>Signup</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></h1></div>
+
+</div>
+<div id = "aboutUs" class = "well-lg well" >
+      
+    <center><h2>SIGN-IN</h2></center></br></br>
+<form action = "dosignup.jsp" method = "POST" style = "margin-left:32%; " class="form-horizontal">
+        <div class="control-group">
+            <label class="control-label" for="inputEmail">Name</label>
+              <div class="controls">
+                <input type="text" required="required" name = "name" class="input-xlarge" id="inputName" placeholder="Your Name">
+              </div>
+          </div>
+        <div class="control-group">
+            <label class="control-label" for="inputEmail">Email Id</label>
+              <div class="controls">
+                <input type="email" required="required" name = "email" class="input-xlarge" id="inputEmail" placeholder="Your Email">
+              </div>
+          </div>
+          
+          <div class="control-group">
+              <label class="control-label" for="inputPassword"><b>Password</b></label>
+              <div class="controls">
+                <input type="password" required="required" name = "pass" class="input-xlarge" id="inputPassword" placeholder="Password">
+              </div>
+          </div>
+          <div class="control-group">
+              <div class="controls"> 
+                <button type="submit" class="btn btn-success">Sign In</button>
+              </div>
+          </div>
+      </form>
+    </div></div>
+</div>
+</body>
