@@ -1,0 +1,90 @@
+header{
+
+border-radius:25px;
+	background-color: DarkRed;
+height:150px;
+margin:25px;
+padding:40px;
+}
+header#h{
+background-color: DarkRed;
+height:200px;
+padding:50px;
+width:1750px;
+margin:20px;
+}
+nav{
+color:DarkRed;
+	margin:20px;
+	text-align:center;
+
+height:200px;}
+section#reg
+{border-radius:1000px;
+	text-align: center;
+margin:40px;
+background-color:Bisque;
+height:300px;
+}
+section#reg1
+{
+	text-align: center;
+margin:40px;
+background-color:Bisque;
+height:380px;
+}
+
+section#reg2
+{    width:240px;
+	text-align: center;
+margin:45px;
+	border-radius:100px;
+background-color:Bisque;
+height:350px;
+float: left;
+}
+
+section#reg3
+{    float:left;
+		border-radius:20px;
+	text-align: center;
+margin:5px;width:415px;
+background-color:Bisque;
+height:600px;
+}
+section#login{
+	text-align: center;
+	background-color:Bisque;
+padding:40px;
+margin:30px;
+}
+section#user{
+	text-align: center;
+background-color:Bisque;
+	padding:40px;
+margin:30px;
+}
+section#admin{
+	border-radius:2500px;
+	text-align: center;
+	background-color:Bisque;
+padding:40px;
+margin:30px;
+}
+
+section#can1
+{text-align: center;
+margin:40px;
+background-color:Bisque;
+height:300px;
+}
+section#win
+{border-radius:40px;
+	text-align: center;
+margin:40px;float:left;
+background-color:Bisque;
+height:700px;width:1700px;
+}
+footer{clear:both;
+	text-align:center;
+}

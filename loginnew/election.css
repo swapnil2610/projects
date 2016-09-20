@@ -1,0 +1,119 @@
+header{
+	border-radius:25px;
+	background-color: DarkRed;
+height:150px;
+margin:25px;
+padding:40px;
+}
+header#h{
+background-color: DarkRed;
+height:200px;
+padding:50px;
+width:1750px;
+margin:20px;
+}
+nav{
+color:DarkRed;
+	margin:20px;
+	text-align:center;
+
+height:100px;}
+section#reg
+{ border-radius:1000px;
+	text-align: center;
+margin:40px;
+background-color:Bisque;
+height:300px;
+}
+section#reg1
+{
+	text-align: center;
+margin:40px;
+background-color:Bisque;
+height:380px;
+}
+
+section#reg2
+{    width:240px;
+	text-align: center;
+margin:35px;
+background-color:Bisque;
+height:350px;
+float: left;
+}
+
+section#reg3
+{    float:left;
+	text-align: center;
+margin:60px;width:415px;
+background-color:Bisque;
+height:300px;
+}
+#login{
+	border-radius:500px;
+	text-align: center;
+	background-color:Bisque;
+padding:40px;
+margin:30px;
+}
+#user{
+	text-align: center;
+	border-radius:500px;
+background-color:Bisque;
+	padding:40px;
+margin:30px;
+}
+body{
+	background-color: #FF6600;
+	padding: 0px;
+	margin: 0px;
+}
+section#admin{
+	text-align: center;
+	background-color:Bisque;
+padding:40px;
+margin:30px;
+}
+
+section#can1
+{text-align: center;
+margin:40px;border-radius:1000px;
+background-color:Bisque;
+height:500px;
+}
+section#win
+{
+	text-align: center;
+margin:40px;float:left;
+background-color:Bisque;
+height:700px;width:1700px;
+}
+footer{
+	text-align:center;
+}
+a:focus{
+	color: #fff;
+	text-decoration: none;}
+ #one{
+	margin-top: 50px;
+	}
+
+ #one li{
+	float: left;
+	margin-left: 40px;
+}
+
+#one li a{
+	color: #fff;
+	font-family:  Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	transition: all .2s linear;
+	
+}
+
+ #one li a:hover,
+ #one li a:focus{
+	text-decoration: none;
+	color: #484848;
+	font-size: 24px;
+}
